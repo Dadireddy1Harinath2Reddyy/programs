@@ -1,0 +1,87 @@
+Reversed Number 
+
+num = int(input())
+num1 = str(num)
+num1 = num1[::-1]
+if str(num) == str(num1):
+    print("Palindrome")
+else:
+    print("Not a Palindrome ") 
+    
+    
+    ouput
+
+121 
+Palindrome  
+
+
+
+ Arm string Number 
+ 
+ num = input()
+length = len(num)
+sum =0
+for i in range(length):
+    sum +=(int(num[i]) ** length)
+if int(num) == sum:
+    print("Armstrong Number ")
+else:
+    print("Not an Armstrong Number")
+  
+  
+AREAS 
+
+num = input()
+length = len(num)
+sum =0
+for i in range(length):
+    sum +=(int(num[i]) ** length)
+if int(num) == sum:
+    print("Armstrong Number ")
+else:
+    print("Not an Armstrong Number") 
+    
+    
+  swap of 3 numbers 
+
+
+a= int(input())
+b = int(input())
+c = int(input())
+sum = a+b+c
+lowest=0
+great =0
+if a>b and a>c:
+    great = a
+elif b>c:
+    great = b
+else:
+    great = c
+if a<b and a<c:
+    lowest = a
+elif b<c:
+    lowest = b
+else:
+   lowest = c
+a = lowest
+b = sum - lowest-great
+c = great
+print(a,b,c)
+ 
+ 
+ 
+Areas
+
+len = int(input())
+bre = int(input())
+print("Area of Triangle : ",(.5*len*bre))
+print("Area of Rectangle : ",len*bre)
+print("Area of square : ",len*len)
+
+
+ 
+ 
+ 
+
+
+
